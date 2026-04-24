@@ -1,0 +1,133 @@
+header{
+    
+    background:  radial-gradient(circle, #a9caff 0.000%, #b8cbff 16.667%, #d3cbff 33.333%, #f0c8f9 50.000%, #ffc5f1 66.667%, #ffc0ec 83.333%, #ffbaec 100.000%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-principal {
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: #a9caff 0px 6px 8px;
+    text-shadow: #ff8bde 0px 4px 8px;
+    text-decoration: none;
+    color: #a9caff;
+}
+
+.menu-principal ul {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: #8db8fd;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    justify-content: center;
+}
+
+.menu-principal a {
+    display: inline-block;
+    color: #91bbff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.menu-principal a:hover {
+    background-color: #b7d2ff;
+    color: #ffc5f1;
+    text-decoration: wavy underline;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.titulo-principal h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+   font-family: 'Oi', cursive;
+}
+
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+}
+
+.contenedor-principal {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.publicidad {
+  background-color: #f5e8f8;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.anuncio {
+  background-color: #fdf5ff;
+  padding: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 10px;
+  color: #ffc5f1;
+  font-family: quicksand, sans-serif;
+  font-weight: bold;
+}
+
+.contenido {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #ffc5f1;
+  color: #ff8bde;
+}
+
+.articulo {
+  margin-bottom: 30px;
+}
+
+.articulo p {
+  column-count: 2;
+  column-gap: 20px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.articulo img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.articulo img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(255, 139, 222, 0.5);
+}
+
+.footer {
+  background-color: #a9caff;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.footer h2 {
+  font-family: 'Oi', cursive;
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+
+.footer-bottom {
+  font-size: 14px;
+  opacity: 0.7;
+}
