@@ -114,6 +114,48 @@ body {
   box-shadow: 0 4px 8px rgba(255, 139, 222, 0.5);
 }
 
+.tabla-seccion {
+  margin: 40px;
+  color: #ff8bde;
+}
+
+.tabla {
+  color: #31182b;
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.tabla a {
+  color: #ff8bde;
+  text-decoration: none;
+}
+.tabla a:hover {
+  text-decoration: wavy underline;
+}
+
+.tabla audio {
+  width: 100%;
+  color: #ffbaec;
+  background-color: #ffbaec;
+}
+
+.tabla th {
+  background-color: #ff8bde;
+  color: white;
+  padding: 10px;
+}
+
+.tabla td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.tabla tr:hover {
+  background-color: #fbcfe8;
+}
+
 .footer {
   background-color: #a9caff;
   color: white;
